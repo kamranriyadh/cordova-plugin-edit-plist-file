@@ -34,7 +34,7 @@
       
     
         <config-file target="*-Info.plist" parent="UIUserInterfaceStyle">
-         <string>Dark</string>
+         <string>Light</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="UIViewControllerBasedStatusBarAppearance">
