@@ -13,7 +13,7 @@
         This plugin was initially created to avoid iOS 9 problems that prevent opening other apps from your own app because some used plugins aren't updated to take into consideration the new specification for iOS 9.
     </description>
 
-    <author>Haythem OUEDERNI - haythem@nirbyapp.com </author>
+    <author>kamran </author>
 
     <keywords>cordova,whitelist,ios9,ecosystem:cordova,ordova-ios</keywords>
     
@@ -40,6 +40,16 @@
         <config-file target="*-Info.plist" parent="UIViewControllerBasedStatusBarAppearance">
          <true />
         </config-file>
+		
+		<key>NSCameraUsageDescription</key>
+		<string>$(APP_NAME) will require you to upload the Vehicle pictures for Insurance Policy using your camera.</string>
+
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>$(APP_NAME) would like to save photos to your photo gallery </string>
+
+<key>NSPhotoLibraryUsageDescription</key>
+<string>$(APP_NAME) would like access to your photo gallery so you can select your vehicle photos to upload in your insurance policy</string>
+
     </platform>
     
 </plugin>
